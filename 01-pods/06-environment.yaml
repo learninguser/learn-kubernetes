@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: env-var-demo
+spec:
+  containers:
+  - name: env-var-demo
+    image: nginx
+    env:
+    - name: DEMO
+      value: "Hello Environment variable"
