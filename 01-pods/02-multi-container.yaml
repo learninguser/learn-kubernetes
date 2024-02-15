@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod # What kind of resource is it?
 metadata:
-  name: nginx # Name of the pod
+  name: multi-container # Name of the pod
   namespace: roboshop
 spec:
   containers:
