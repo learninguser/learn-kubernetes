@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: import-all
+spec:
+  containers:
+    - name: import-all
+      image: nginx
+      envFrom:
+      - configMapRef:
+          name: course-config
